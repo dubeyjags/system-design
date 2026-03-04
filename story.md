@@ -203,3 +203,18 @@ Strong consistency vs Availability
 | Overload               | Rate limiting              |
 | Heavy task             | Async queue                |
 | Failed messages        | Dead Letter Queue          |
+
+
+### System Design ka real matlab:
+```
+Jab system grow karta hai, har stage par naye problems aate hain.
+Har problem ka ek specific pattern solution hota hai.
+```
+
+Final Wisdom
+
+1️⃣ Pehle simple rakho  
+2️⃣ Jab problem aaye tab solution add karo  
+3️⃣ Over-engineering mat karo  
+4️⃣ Har cheez ka trade-off hota hai  
+5️⃣ Microservice tabhi jab zarurat ho  
